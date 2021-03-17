@@ -1,6 +1,5 @@
-echo 'TODO: build process in here'
+echo 'TODO: insert build process here'
 
 # basic build script
-mkdir dist
-cd dist
+mkdir -p dist && cd dist
 echo 'Hello!' > index.html
